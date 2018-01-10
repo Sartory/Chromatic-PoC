@@ -1,6 +1,7 @@
 import { configure } from '@storybook/react';
 //import the chromatic addon
 import 'react-chromatic/storybook-addon';
+import '@storybook/addon-knobs/register'
 
 // If you have a global CSS file, import it here:
 import '../src/index.css';
